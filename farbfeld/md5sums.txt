@@ -1,0 +1,3 @@
+966f0ba028222ae57d688d3e3a6b2429  farbfeld-1.tar.gz
+9b2b2328c39cc8ab7656e90471b4367f  farbfeld-2.tar.gz
+8bde93ffabc2089f4a7a3ac48be4b915  farbfeld-3.tar.gz

@@ -1,0 +1,6 @@
+055e273a03544f71bbc44734f8dce8ed  libixp-hg-139-1-i686.pkg.tar.xz
+eea3b2faaedb279b70f4369f481fbcf1  python-pygmi-hg-2758-1-any.pkg.tar.xz
+c73f87273e7fa0bb52b985040348bc5e  python-pyxp-hg-2758-1-any.pkg.tar.xz
+b8c836e606c8677a72f730ec441e994f  suckless.db
+b8c836e606c8677a72f730ec441e994f  suckless.db.tar.gz
+ac94174fd9b7db7df4691eb0665f051a  wmii-hg-2758-1-i686.pkg.tar.xz

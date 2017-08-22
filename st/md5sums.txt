@@ -1,0 +1,10 @@
+ebdb5207733f7ae066c314b10d4d8e2a  st-0.1.1.tar.gz
+f5266d802f4869e8369f5a83c98dc507  st-0.1.tar.gz
+1e3249da1c4e52894cfa4b0f11e35599  st-0.2.1.tar.gz
+caf0b85181ae4b2019f43cc5cd9ec316  st-0.2.tar.gz
+b81392157bd9ff7a89da8a90588e420e  st-0.3.tar.gz
+fa03d702b6d67de395975155c87084e9  st-0.4.1.tar.gz
+222406dd0ae7b543119b22d53b772fed  st-0.4.tar.gz
+4f8ae2737120a8cba34b23c6020fe51e  st-0.5.tar.gz
+1a926f450b4eacb7e2f5ac5b8ffea7c8  st-0.6.tar.gz
+29b2a599cf1511c8062ed8f025c84c63  st-0.7.tar.gz
