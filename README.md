@@ -9,12 +9,54 @@ After verifying the checksum, you are encouraged to verify the cryptographic
 signature provided with each checksum file.
 
 This is to help ensure file integrity that you have downloaded all the bits
-from dl.suckless.org while it is currently served under HTTP, and is still of
-value for HTTPS, if deployed.
+from [dl.suckless.org](http://dl.suckless.org) while it is currently served
+under HTTP, and is still of value for HTTPS, if deployed.
 
 I am not distributing the software, so you will not get any file downloads from
 this Github repository. This repository only serves to provide file integrity
-by the software provided at dl.suckless.org.
+by the software provided at [dl.suckless.org](http://dl.suckless.org).
+
+## How To Get and Verify the Software
+
+There are two primary ways to retrieve the software, one of which provides
+automatic file integrity checking:
+
+1. Git
+2. HTTP
+
+### Using Git
+
+Git provides automatic file integrity checking when working in the respository.
+For that reason alone, you should probably prefer this method over using
+standard HTTP to get your software.
+
+You can clone any suckless [Git repository](http://git.suckless.org/) one of
+three ways:
+
+    $ git clone ssh://<USER>@suckless.org/gitrepos/<NAME> # preferred
+    $ git clone git://git.suckless.org/<NAME>
+    $ git clone http://git.suckless.org/<NAME>
+
+Using SSH requires that you have an account with the server, but guarantees
+file confidentiality in addition to file integrity.
+
+### Using HTTP
+
+Because file integrity is sparse throughout the project, that is what this
+Github repository is for. HTTP does not provide file integrity, so you will
+need to verify the software manually.
+
+You can verify the software with:
+
+    $ wget http://dl.suckless.org/dwm/dwm-6.1.tar.gz
+    $ wget https://raw.githubusercontent.com/atoponce/dl.suckless.org/master/dwm/sha256sums.txt
+    $ wget https://raw.githubusercontent.com/atoponce/dl.suckless.org/master/dwm/sha256sums.txt.asc
+    $ sha256sum -c --ignore-missing sha256sums.txt
+    $ gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 0x22EEE0488086060F
+    $ gpg --verify sha256sums.txt.asc
+
+This is the best you can do, until the checksums and digital signatures exist
+on the [dl.suckless.org](http://dl.suckless.org) site.
 
 ## WARNING
 
