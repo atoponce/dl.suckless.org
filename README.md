@@ -30,7 +30,7 @@ Git provides automatic file integrity checking when working in the respository.
 For that reason alone, you should probably prefer this method over using
 standard HTTP to get your software.
 
-You can clone any suckless [Git repository](http://git.suckless.org/) one of
+You can clone any [suckless Git repository](http://git.suckless.org/) one of
 three ways:
 
     $ git clone ssh://<USER>@suckless.org/gitrepos/<NAME> # preferred
@@ -52,7 +52,7 @@ You can verify the software with:
     $ wget https://raw.githubusercontent.com/atoponce/dl.suckless.org/master/dwm/sha256sums.txt
     $ wget https://raw.githubusercontent.com/atoponce/dl.suckless.org/master/dwm/sha256sums.txt.asc
     $ sha256sum -c --ignore-missing sha256sums.txt
-    $ gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 0x22EEE0488086060F
+    $ gpg --keyserver hkps://hkps.pool.sks-keyservers.net --recv-keys 0x22EEE0488086060F
     $ gpg --verify sha256sums.txt.asc
 
 This is the best you can do, until the checksums and digital signatures exist
