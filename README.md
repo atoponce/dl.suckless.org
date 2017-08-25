@@ -3,7 +3,9 @@
 Every file that is not a website (`htmlout` and `stali/clt2010`) is hashed with
 MD5, SHA-1, SHA-256, and SHA-512. Each checksum file is then cryptographically
 signed with [Aaron Toponce's public OpenPGP
-key](https://keybase.io/atoponce/pgp_keys.asc).
+key](https://keybase.io/atoponce/pgp_keys.asc) and a
+[Minisign](https://github.com/jedisct1/minisign) public key for those that
+don't want to use OpenPGP.
 
 After verifying the checksum, you are encouraged to verify the cryptographic
 signature provided with each checksum file.
@@ -52,6 +54,7 @@ sha256sums.txt:
     $ wget http://dl.suckless.org/dwm/dwm-6.1.tar.gz
     $ wget https://raw.githubusercontent.com/atoponce/dl.suckless.org/master/dwm/sha256sums.txt
 
+#### Verifying with OpenPGP
 You can verify the sha256sums.txt.asc signature with OpenPGP:
 
     $ wget https://raw.githubusercontent.com/atoponce/dl.suckless.org/master/dwm/sha256sums.txt.asc
@@ -59,6 +62,7 @@ You can verify the sha256sums.txt.asc signature with OpenPGP:
     $ gpg --keyserver hkps://hkps.pool.sks-keyservers.net --recv-keys 0x22EEE0488086060F
     $ gpg --verify sha256sums.txt.asc
 
+#### Verifying with Minisign
 Or alternatively, you can verify the sha256sums.txt.minisig signature using
 [Minisign](https://github.com/jedisct1/minisign) from Frank Denis for those who
 don't want to rely on OpenPGP:
@@ -66,7 +70,6 @@ don't want to rely on OpenPGP:
 Save the Minisign public key for this project as `minisign.pub` somewhere on
 your filesystem:
 
-    untrusted comment: minisign public key F7592A64979EB0E3
     RWTjsJ6XZCpZ93yok2PRq2j1pDJj+bzse657NJlN1pywF4Qf6o1cV4Dy
 
 Then verifying the signatures can be done in the following manner:
