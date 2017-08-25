@@ -77,8 +77,6 @@ Then verifying the signatures can be done in the following manner:
     $ wget https://raw.githubusercontent.com/atoponce/dl.suckless.org/master/dwm/sha256sums.txt.minisig
     $ sha256sum -c --ignore-missing sha256sums.txt
     $ minisign -Vm sha256sums.txt -p /path/to/minisign.pub 
-    Signature and comment signature verified
-    Trusted comment: timestamp:1503680772	file:sha256sums.txt
 
 This is the best you can do, until the checksums and digital signatures exist
 on the [dl.suckless.org](http://dl.suckless.org) site.
