@@ -46,14 +46,36 @@ Because file integrity is sparse throughout the project, that is what this
 Github repository is for. HTTP does not provide file integrity, so you will
 need to verify the software manually.
 
-You can verify the software with:
+First, download the tool you want to install, and a checksum file, such as the
+sha256sums.txt:
 
     $ wget http://dl.suckless.org/dwm/dwm-6.1.tar.gz
     $ wget https://raw.githubusercontent.com/atoponce/dl.suckless.org/master/dwm/sha256sums.txt
+
+You can verify the sha256sums.txt.asc signature with OpenPGP:
+
     $ wget https://raw.githubusercontent.com/atoponce/dl.suckless.org/master/dwm/sha256sums.txt.asc
     $ sha256sum -c --ignore-missing sha256sums.txt
     $ gpg --keyserver hkps://hkps.pool.sks-keyservers.net --recv-keys 0x22EEE0488086060F
     $ gpg --verify sha256sums.txt.asc
+
+Or alternatively, you can verify the sha256sums.txt.minisig signature using
+[Minisign](https://github.com/jedisct1/minisign) from Frank Denis for those who
+don't want to rely on OpenPGP:
+
+Save the Minisign public key for this project as `minisign.pub` somewhere on
+your filesystem:
+
+    untrusted comment: minisign public key F7592A64979EB0E3
+    RWTjsJ6XZCpZ93yok2PRq2j1pDJj+bzse657NJlN1pywF4Qf6o1cV4Dy
+
+Then verifying the signatures can be done in the following manner:
+
+    $ wget https://raw.githubusercontent.com/atoponce/dl.suckless.org/master/dwm/sha256sums.txt.minisig
+    $ sha256sum -c --ignore-missing sha256sums.txt
+    $ minisign -Vm sha256sums.txt -p /path/to/minisign.pub 
+    Signature and comment signature verified
+    Trusted comment: timestamp:1503680772	file:sha256sums.txt
 
 This is the best you can do, until the checksums and digital signatures exist
 on the [dl.suckless.org](http://dl.suckless.org) site.
