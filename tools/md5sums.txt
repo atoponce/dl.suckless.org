@@ -73,6 +73,7 @@ ca183a993690cbe3b78edd1bc8c8bed5  ii-1.6.tar.gz
 d48fdce9868b13bf5ef3e7834768f89f  lsx-0.1.tar.gz
 ed5f4e27c5de1a86f52ac010e525ac17  sent-0.1.tar.gz
 b45cea13e23711cbf917d5ca45186dc1  sent-0.2.tar.gz
+ad7bd7f9f475826ff6ad00d137a6442c  sent-1.tar.gz
 b8cc1d3c1143e709f03647ace73295eb  sic-0.1.tar.gz
 c44cc6e0eb670d135edbe5aeab9a2c51  sic-0.2.tar.gz
 4bdb8b1b54c4029976c671ad865ef2ab  sic-0.3.tar.gz
