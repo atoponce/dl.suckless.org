@@ -1,5 +1,13 @@
 # Suckless Downloads File Integrity
 
+## UPDATE
+As of August 30, 2017, files are now served over HTTPS by default. This
+respository now only satisfies the needs as an independent 3rd party providing
+file integrity for the project. HSTS is not fully working, but a fix is in
+progress.
+
+## Introduction
+
 Every file that is not a website (`htmlout` and `stali/clt2010`) is hashed with
 MD5, SHA-1, SHA-256, and SHA-512. Each checksum file is then cryptographically
 signed with [Aaron Toponce's public OpenPGP
@@ -8,15 +16,14 @@ key](https://keybase.io/atoponce/pgp_keys.asc) and a
 don't want to use OpenPGP.
 
 After verifying the checksum, you are encouraged to verify the cryptographic
-signature provided with each checksum file.
-
-This is to help ensure file integrity that you have downloaded all the bits
-from [dl.suckless.org](http://dl.suckless.org) while it is currently served
-under HTTP, and is still of value for HTTPS, if deployed.
+signature provided with each checksum file. This is to help ensure file
+integrity that you have downloaded all the bits from
+[dl.suckless.org](https://dl.suckless.org), and ensure you recevied all the
+bits from a trusted source.
 
 I am not distributing the software, so you will not get any file downloads from
 this Github repository. This repository only serves to provide file integrity
-by the software provided at [dl.suckless.org](http://dl.suckless.org).
+by the software provided at [dl.suckless.org](https://dl.suckless.org).
 
 ## How To Get and Verify the Software
 
@@ -24,34 +31,31 @@ There are two primary ways to retrieve the software, one of which provides
 automatic file integrity checking:
 
 1. Git
-2. HTTP
+2. HTTPS
 
 ### Using Git
 
 Git provides automatic file integrity checking when working in the respository.
 For that reason alone, you should probably prefer this method over using
-standard HTTP to get your software.
+standard HTTPS to get your software.
 
-You can clone any [suckless Git repository](http://git.suckless.org/) one of
+You can clone any [suckless Git repository](https://git.suckless.org/) one of
 three ways:
 
-    $ git clone ssh://<USER>@suckless.org/gitrepos/<NAME> # preferred
+    $ git clone https://git.suckless.org/<NAME> # preferred
+    $ git clone ssh://<USER>@suckless.org/gitrepos/<NAME>
     $ git clone git://git.suckless.org/<NAME>
-    $ git clone http://git.suckless.org/<NAME>
 
 Using SSH requires that you have an account with the server, but guarantees
 file confidentiality in addition to file integrity.
 
-### Using HTTP
+### Using HTTPS
 
 Because file integrity is sparse throughout the project, that is what this
-Github repository is for. HTTP does not provide file integrity, so you will
-need to verify the software manually.
+Github repository is for. First, download the tool you want to install, and a
+checksum file, such as the sha256sums.txt:
 
-First, download the tool you want to install, and a checksum file, such as the
-sha256sums.txt:
-
-    $ wget http://dl.suckless.org/dwm/dwm-6.1.tar.gz
+    $ wget https://dl.suckless.org/dwm/dwm-6.1.tar.gz
     $ wget https://raw.githubusercontent.com/atoponce/dl.suckless.org/master/dwm/sha256sums.txt
 
 #### Verifying with OpenPGP
@@ -78,23 +82,9 @@ Then verifying the signatures can be done in the following manner:
     $ sha256sum -c --ignore-missing sha256sums.txt
     $ minisign -Vm sha256sums.txt -p /path/to/minisign.pub 
 
+Or alternatively:
+
+    $ minisign -Vm sha256sums.txt -P RWTjsJ6XZCpZ93yok2PRq2j1pDJj+bzse657NJlN1pywF4Qf6o1cV4Dy
+
 This is the best you can do, until the checksums and digital signatures exist
-on the [dl.suckless.org](http://dl.suckless.org) site.
-
-## WARNING
-
-Because the files were downloaded over HTTP, there is no guarantee that the
-files I downloaded were not changed as part of a man-in-the-middle attack. As
-such, the checksums provided may not match what you receive. I have not
-compiled and executed any of software I downloded, so I cannot provide any
-guarantees about their accuracy.
-
-So, if your checksum disagrees with what I have provided, either:
-
-1. I did not download all the correct bits, and have a partial download.
-2. You did not download all the correct bits.
-3. I was the victim of a MITM attack.
-4. You were the victim of a MITM attack.
-
-As such, please get in contact with me, and I'll help investigate why there is
-a disagreement in our checksums.
+on the [dl.suckless.org](https://dl.suckless.org) site.
