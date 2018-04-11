@@ -23,11 +23,13 @@ bits from a trusted source.
 
 I am not distributing the software, so you will not get any file downloads from
 this Github repository. This repository only serves to provide file integrity
-by the software provided at [dl.suckless.org](https://dl.suckless.org).
+by the software provided at [dl.suckless.org](https://dl.suckless.org). I am
+also not the developer of any of the software, so you may or may not trust me
+as an independent 3rd party providing file integrity proofs.
 
 ## How To Get and Verify the Software
 
-There are two primary ways to retrieve the software, one of which provides
+There are two primary ways to retrieve the software, only one of which provides
 automatic file integrity checking:
 
 1. Git
@@ -51,15 +53,25 @@ file confidentiality in addition to file integrity.
 
 ### Using HTTPS
 
-Because file integrity is sparse throughout the project, that is what this
-Github repository is for. First, download the tool you want to install, and a
-checksum file, such as the sha256sums.txt:
+Because file integrity was initially sparse throughout the project, that is
+what this Github repository was built for. The project now distributes SHA-256
+signatures throughout the project. You should verify the signatures there, and
+if still not sure, you could also verify them here.
+
+First, download the tool you want to install, and then the sha256sums.txt file:
+
+    $ wget https://dl.suckless.org/dwm/dwm-6.1.tar.gz
+    $ wget https://dl.suckless.org/dwm/sha256sums.txt
+
+Alternatively, using this repository:
 
     $ wget https://dl.suckless.org/dwm/dwm-6.1.tar.gz
     $ wget https://raw.githubusercontent.com/atoponce/dl.suckless.org/master/dwm/sha256sums.txt
 
 #### Verifying with OpenPGP
-You can verify the sha256sums.txt.asc signature with OpenPGP:
+The Suckless project does not provide cryptographic authentication with their
+sha256sums.txt files, but I do. As such, you can verify my sha256sums.txt.asc
+signature with my OpenPGP key:
 
     $ wget https://raw.githubusercontent.com/atoponce/dl.suckless.org/master/dwm/sha256sums.txt.asc
     $ sha256sum -c --ignore-missing sha256sums.txt
@@ -67,7 +79,7 @@ You can verify the sha256sums.txt.asc signature with OpenPGP:
     $ gpg --verify sha256sums.txt.asc
 
 #### Verifying with Minisign
-Or alternatively, you can verify the sha256sums.txt.minisig signature using
+Or alternatively, you can verify my sha256sums.txt.minisig signature using
 [Minisign](https://github.com/jedisct1/minisign) from Frank Denis for those who
 don't want to rely on OpenPGP:
 
@@ -86,5 +98,5 @@ Or alternatively:
 
     $ minisign -Vm sha256sums.txt -P RWTjsJ6XZCpZ93yok2PRq2j1pDJj+bzse657NJlN1pywF4Qf6o1cV4Dy
 
-This is the best you can do, until the checksums and digital signatures exist
-on the [dl.suckless.org](https://dl.suckless.org) site.
+This is the best you can do, until cryptographic digital signatures exist on
+the [dl.suckless.org](https://dl.suckless.org) site.
