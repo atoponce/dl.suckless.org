@@ -60,6 +60,7 @@ c22c468f9383ff485feacb9662571c4d1601aca3  dmenu-4.3.1.tar.gz
 16297db470b370a16d532fba3cfd9743758ada80  dmenu-4.6.tar.gz
 f0f4a30ed0797099fef8d83990a91c8c3c9847e2  dmenu-4.7.tar.gz
 29d63aeb4fcb7a0b2891d122fdde324cda02feda  dmenu-4.8.tar.gz
+73d1a9a844e8f285fc315ea4ee5b95da2b0bc8f4  dmenu-4.9.tar.gz
 dd837f113d90dcbdd13af6beee1297ac88f8503a  ii-1.1.tar.gz
 bd8100f87fad814bc64c2151adcd4b2b749a21a2  ii-1.2.tar.gz
 efd245f48825a7891f41371d84eb8a8ec1b60479  ii-1.3.tar.gz
