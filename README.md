@@ -3,8 +3,7 @@
 ## UPDATE
 As of August 30, 2017, files are now served over HTTPS by default. This
 respository now only satisfies the needs as an independent 3rd party providing
-file integrity for the project. HSTS is not fully working, but a fix is in
-progress.
+file integrity for the project.
 
 ## Introduction
 
