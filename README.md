@@ -1,12 +1,5 @@
 # Suckless Downloads File Integrity
-
-## UPDATE
-As of August 30, 2017, files are now served over HTTPS by default. This
-respository now only satisfies the needs as an independent 3rd party providing
-file integrity for the project.
-
 ## Introduction
-
 Every file that is not a website (`htmlout` and `stali/clt2010`) is hashed with
 MD5, SHA-1, SHA-256, and SHA-512. Each checksum file is then cryptographically
 signed with [Aaron Toponce's public OpenPGP
@@ -27,7 +20,6 @@ also not the developer of any of the software, so you may or may not trust me
 as an independent 3rd party providing file integrity proofs.
 
 ## How To Get and Verify the Software
-
 There are two primary ways to retrieve the software, only one of which provides
 automatic file integrity checking:
 
@@ -35,7 +27,6 @@ automatic file integrity checking:
 2. HTTPS
 
 ### Using Git
-
 Git provides automatic file integrity checking when working in the respository.
 For that reason alone, you should probably prefer this method over using
 standard HTTPS to get your software.
@@ -51,7 +42,6 @@ Using SSH requires that you have an account with the server, but guarantees
 file confidentiality in addition to file integrity.
 
 ### Using HTTPS
-
 Because file integrity was initially sparse throughout the project, that is
 what this Github repository was built for. The project now distributes SHA-256
 signatures throughout the project. You should verify the signatures there, and
