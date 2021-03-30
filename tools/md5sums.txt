@@ -112,6 +112,7 @@ b74d6558790d8df897db40bca90bc0f6  sselp-0.2.tar.gz
 f54db7458abd71aab5df146ead02bf99  svkbd-0.2.tar.gz
 5cf9aabd7ba98cc390073e9302d47157  svkbd-0.2.1.tar.gz
 a9f7f9cade4a4882cb816c42d9144632  svkbd-0.2.2.tar.gz
+1ffe1fbb326b7736df564424487efa4f  svkbd-0.3.tar.gz
 b674dd2f33c45cbd789e4b6e09b7b55e  swarp-0.1.tar.gz
 6890d8ccb9b96c86ca048034a04367b2  tabbed-0.1.tar.gz
 fc00ee1a9fd1478561b064cd6a53d494  tabbed-0.2.tar.gz
