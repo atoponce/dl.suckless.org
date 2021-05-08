@@ -10,3 +10,4 @@ aeeed723b562a30cc6a2b3ea18f6d99a  surf-0.6.tar.gz
 45899435aeb5ce3af0a62909911b735f  surf-0.7.tar.gz
 2b27e4a5091acb300c3988258e4d7707  surf-1.8.tar.gz
 11713901fa83c536f3ddfacfc28c3acc  surf-2.0.tar.gz
+de47036f5dc1797f8c6d9a3419ac4b94  surf-2.1.tar.gz
