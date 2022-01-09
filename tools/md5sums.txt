@@ -70,6 +70,7 @@ caee365577b54666c4204e231ab409ce  ii-1.2.tar.gz
 ca183a993690cbe3b78edd1bc8c8bed5  ii-1.6.tar.gz
 6191008ca09770873d84f40270493d0e  ii-1.7.tar.gz
 fc31ba3ecf6b52c5bae39b70f674543b  ii-1.8.tar.gz
+61e1f6a773bec41966459ef1b60e3f8a  ii-1.9.tar.gz
 9c1a35212286107f844d613d3c63a224  ii-1.tar.gz
 0db1f9d55021ff1352353fb5908a4a92  lsw-0.1.tar.gz
 5ddd61d04ff084a39494b2aa06c00b65  lsw-0.2.tar.gz
@@ -109,10 +110,12 @@ f91dd5ba50ce7bd1842caeca067086a3  slock-1.4.tar.gz
 5c0c98469fbf21649eb13e5ff878dafb  sselp-0.1.tar.gz
 b74d6558790d8df897db40bca90bc0f6  sselp-0.2.tar.gz
 8740013208d79ef4d7ce7fe0c1f12e87  ssid-0.1.tar.gz
-f54db7458abd71aab5df146ead02bf99  svkbd-0.2.tar.gz
 5cf9aabd7ba98cc390073e9302d47157  svkbd-0.2.1.tar.gz
 a9f7f9cade4a4882cb816c42d9144632  svkbd-0.2.2.tar.gz
+f54db7458abd71aab5df146ead02bf99  svkbd-0.2.tar.gz
 1ffe1fbb326b7736df564424487efa4f  svkbd-0.3.tar.gz
+076258040c04bdcb522b62309dd86aff  svkbd-0.4.1.tar.gz
+3689960e9d259c0d33932c182264b10a  svkbd-0.4.tar.gz
 3689960e9d259c0d33932c182264b10a  svkbd-0.4.tar.gz
 b674dd2f33c45cbd789e4b6e09b7b55e  swarp-0.1.tar.gz
 6890d8ccb9b96c86ca048034a04367b2  tabbed-0.1.tar.gz
