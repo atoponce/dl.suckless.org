@@ -63,6 +63,7 @@ ae1902fc37716f739836fddce6123ebc  dmenu-4.4.tar.gz
 9a537ec9a3a2ce9f08963d66b56cc030  dmenu-4.9.tar.gz
 614404940441e36fef8ecc533ad9ba96  dmenu-5.0.tar.gz
 a18dcdaf3bd60e357fa5bb065059f9f6  dmenu-5.1.tar.gz
+fe156c095360914b9b7badf118a66c10  dmenu-5.2.tar.gz
 2224686cf96273d479ad69299cdc7400  ii-1.1.tar.gz
 caee365577b54666c4204e231ab409ce  ii-1.2.tar.gz
 529bcc4c2ed3aecc18e131f2bfce48c1  ii-1.3.tar.gz
@@ -73,6 +74,7 @@ ca183a993690cbe3b78edd1bc8c8bed5  ii-1.6.tar.gz
 fc31ba3ecf6b52c5bae39b70f674543b  ii-1.8.tar.gz
 61e1f6a773bec41966459ef1b60e3f8a  ii-1.9.tar.gz
 9c1a35212286107f844d613d3c63a224  ii-1.tar.gz
+14a03b30ea4a7259820882d483c5c727  ii-2.0.tar.gz
 0db1f9d55021ff1352353fb5908a4a92  lsw-0.1.tar.gz
 5ddd61d04ff084a39494b2aa06c00b65  lsw-0.2.tar.gz
 3ae42c41a7ceda8ddf6e0fbab0866f79  lsw-0.3.tar.gz
@@ -93,6 +95,7 @@ d67f11ba3de8ca85307b85a11059464f  sic-0.9.tar.gz
 d73d07d5de3ea06e9e83b90d26749202  sic-1.0.tar.gz
 856d0e5faa151ae9602713ee7d34a2d5  sic-1.1.tar.gz
 eb099e790c3ce7866df50d3fe1a52c25  sic-1.2.tar.gz
+be0a6fd28738d3c626d70f1b1f33adb5  sic-1.3.tar.gz
 3f1a8db0f93d54d4790a7c459a65e4a3  slock-0.1.tar.gz
 53bd2e96c09a7916450ca0ad74d8a711  slock-0.2.tar.gz
 b557b5a67c95e2089c7e8b0be686fa6a  slock-0.3.tar.gz
@@ -107,6 +110,7 @@ e3b25abdfd54c81562de4d63d3565be7  slock-1.1.tar.gz
 ee65f6e9f5ce71f3a6088d53b2485430  slock-1.2.tar.gz
 825aaeccba9b3b3c1f3d249d47c1396a  slock-1.3.tar.gz
 f91dd5ba50ce7bd1842caeca067086a3  slock-1.4.tar.gz
+c147b00bda15ed6e2d61a45a91715048  slock-1.5.tar.gz
 7586fc99580a1f79194f2e83f9ef3e9e  sprop-0.1.tar.gz
 5c0c98469fbf21649eb13e5ff878dafb  sselp-0.1.tar.gz
 b74d6558790d8df897db40bca90bc0f6  sselp-0.2.tar.gz
@@ -126,6 +130,7 @@ fc00ee1a9fd1478561b064cd6a53d494  tabbed-0.2.tar.gz
 855ee1245386193a17af3fb3fedf1281  tabbed-0.4.tar.gz
 cd9cfd696db745637486ec3b9bbe4b75  tabbed-0.5.tar.gz
 7898992feb9358e0196119750b77b42c  tabbed-0.6.tar.gz
+a26d39a321507702775f33ed95b8d352  tabbed-0.7.tar.gz
 6903d299f84d335e529fbd2c1d6e49fe  wmname-0.1.tar.gz
 5bfb9f7c3d4b4ff742d20c5cfe3148f4  xssstate-1.0.tar.gz
 7d4935bc17b6f01afa12e420331fa688  xssstate-1.1.tar.gz
