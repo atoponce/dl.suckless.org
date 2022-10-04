@@ -75,3 +75,4 @@ a0143b29c17545ac292b69cae3646d83  dwm-5.8.tar.gz
 f0b6b1093b7207f89c2a90b848c008ec  dwm-6.1.tar.gz
 9929845ccdec4d2cc191f16210dd7f3d  dwm-6.2.tar.gz
 ed3aa40b97e29dbbe7d7d3f296bc2fcc  dwm-6.3.tar.gz
+008da068c3884ae675f65b9458b43c02  dwm-6.4.tar.gz
