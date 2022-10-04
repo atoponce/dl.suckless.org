@@ -14,3 +14,4 @@ a3d97ee92215071e6399691edc0f04b0  st-0.8.2.tar.gz
 e00b074c0e5d55513745c99f027b7a34  st-0.8.4.tar.gz
 ea3de87a4edb083bada187a0abb4403a  st-0.8.5.tar.gz
 4cae10d2dcc1f97ead37181b21b54212  st-0.8.tar.gz
+accd12489e3d48b77f1c11be794f9ee5  st-0.9.tar.gz
