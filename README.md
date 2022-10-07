@@ -88,6 +88,8 @@ signature with my [OpenPGP](https://openpgp.org) key. Import my PGP key below, t
     $ sha256sum -c --ignore-missing sha256sums.txt
     $ gpg --verify sha256sums.txt.asc
 
+#####  PGP Public Key
+
     -----BEGIN PGP PUBLIC KEY BLOCK-----
 
     mQGiBEFLyzoRBACXCUta5CK+DCgnXn9wkqUumkcbenibGPBe3Y8IEY4BjkdbGdTN
