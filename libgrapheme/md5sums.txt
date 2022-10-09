@@ -1,2 +1,3 @@
 7e54b7a3c44e16d6c00559379716c523  libgrapheme-1.tar.gz
 53c4496fdd13085e4a005f700fcaa63a  libgrapheme-2.0.0.tar.gz
+0d64ea8c5895cde3f0e61bfbd38db46b  libgrapheme-2.0.1.tar.gz
