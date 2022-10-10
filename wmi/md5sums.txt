@@ -1,2 +1,0 @@
-6728ae28aaa172db3df1e3c2bc483b23  wmi-10.tar.gz
-289e549cbb3be3dc4718d096b41080b9  wmi-11.tar.gz

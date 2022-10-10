@@ -1,8 +1,0 @@
-61ac414b007af381d4e67ea57020fe6a  2wm-0.1.tar.gz
-d93257acb894ed80a0f1db2b60582eed  9base-1.tar.gz
-f9d30509996ec178702af20fec986e9d  9base-2.tar.gz
-463f1c5e4de5c97e3ae89c846ffa20ea  blurt-0.0.12.tar.gz
-f4527a62e19219f0505d15dd8024fecd  diri-0.1.tar.gz
-0c8dba1a0112c836a4ccaa464f372b12  diri-0.2.tar.gz
-84a5641961f7f27d6f3b07940f543655  diri-0.3.tar.gz
-6728ae28aaa172db3df1e3c2bc483b23  wmi-10.tar.gz

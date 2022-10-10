@@ -1,2 +1,0 @@
-8e54383a96d52c8b473f83a9f049d94b0fa4a94b  9buntu.10.07.i386.iso
-7047fc0e41dbb0440a9addd7222198eedfecdd27  9buntu-screendump.png
