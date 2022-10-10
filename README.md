@@ -1,10 +1,9 @@
 # Suckless Downloads File Integrity
 ## Introduction
-Every file that is not a website (`htmlout` and `stali/clt2010`) is hashed with
-MD5, SHA-1, SHA-256, and SHA-512. Each checksum file is then cryptographically
-signed with Aaron Toponce's public [OpenPGP](https://openpgp.org) key and a public
-[Minisign](https://github.com/jedisct1/minisign) key for those that don't want to use
-OpenPGP.
+Every file that is not a website (`htmlout` and `stali/clt2010`) is hashed with SHA-256. Each
+checksum file is then cryptographically signed with Aaron Toponce's public
+[OpenPGP](https://openpgp.org) key and a public [Minisign](https://github.com/jedisct1/minisign) key
+for those that don't want to use OpenPGP.
 
 After verifying the checksum, you are encouraged to verify the cryptographic
 signature provided with each checksum file. This is to help ensure file
